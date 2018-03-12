@@ -9,41 +9,47 @@ and open the template in the editor.
 <world
     xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
     xsi:noNamespaceSchemaLocation='jaxb/World-Binding/worldSchema.xsd'>
-    <name></name>
+    <name>Darwin Awards</name>
     <logo></logo>
-    <money></money>
-    <score></score>
-    <totalangels></totalangels>
-    <activeangels></activeangels>
-    <angelbonus></angelbonus>
+    <money>FuneralCrowns</money>
+    <score>0</score>
+    <totalangels>0</totalangels>
+    <activeangels>0</activeangels>
+    <angelbonus>2%</angelbonus>
     <lastupdate></lastupdate>
     <products>
         <product>
-            <id></id>
-            <name></name>
+            <id>01</id>
+            <name>Elle est solide cette vitre</name>
             <logo></logo>
-            <cout></cout>
-            <croissance></croissance>
-            <revenu></revenu>
-            <vitesse></vitesse>
-            <quantite></quantite>
+            <cout>4</cout>
+            <croissance>1.07</croissance>
+            <revenu>1</revenu>
+            <vitesse>0.5</vitesse>
+            <quantite>1</quantite>
             <timeleft></timeleft>
-            <managerUnlocked></managerUnlocked>
+            <managerUnlocked>False</managerUnlocked>
             <palliers>
+                <pallier>25</pallier>     
+                <pallier>50</pallier> 
+                <pallier>75</pallier> 
             </palliers>
         </product>
         <product>
-            <id></id>
-            <name></name>
+            <id>02</id>
+            <name>Un chien bien dressé</name>
             <logo></logo>
-            <cout></cout>
-            <croissance></croissance>
-            <revenu></revenu>
-            <vitesse></vitesse>
-            <quantite></quantite>
+            <cout>60</cout>
+            <croissance>1.15</croissance>
+            <revenu>60</revenu>
+            <vitesse>3</vitesse>
+            <quantite>0</quantite>
             <timeleft></timeleft>
-            <managerUnlocked></managerUnlocked>
+            <managerUnlocked>False</managerUnlocked>
             <palliers>
+                <pallier>25</pallier>     
+                <pallier>50</pallier> 
+                <pallier>100</pallier> 
             </palliers>
         </product>
         <product>
@@ -63,38 +69,101 @@ and open the template in the editor.
     </products>
     <allunlocks>
         <pallier>
-            <name></name>
-            <logo></logo>
-            <seuil></seuil>
             <idcible></idcible>
-            <ratio></ratio>
-            <typeratio></typeratio>
-            <unlocked></unlocked>
-        </pallier>
-        <pallier>
-            <name></name>
             <logo></logo>
-            <seuil></seuil>
-            <idcible></idcible>
-            <ratio></ratio>
-            <typeratio></typeratio>
-            <unlocked></unlocked>
-        </pallier>
-        <pallier>
             <name></name>
-            <logo></logo>
-            <seuil></seuil>
-            <idcible></idcible>
             <ratio></ratio>
+            <seuil></seuil>
             <typeratio></typeratio>
-            <unlocked></unlocked>
+            <unlocked>False</unlocked>
         </pallier>
     </allunlocks>
     <upgrades>
+        <pallier>
+            <idcible>01</idcible>
+            <logo></logo>
+            <name>Premier Unlock</name>
+            <ratio>2</ratio>
+            <seuil>25</seuil>
+            <typeratio>vitesse</typeratio>
+            <unlocked>False</unlocked>
+        </pallier>
+        <pallier>
+            <idcible>01</idcible>
+            <logo></logo>
+            <name></name>
+            <ratio></ratio>
+            <seuil>50</seuil>
+            <typeratio>vitesse</typeratio>
+            <unlocked>False</unlocked>
+        </pallier>
+        <pallier>
+            <idcible>01</idcible>
+            <logo></logo>
+            <name></name>
+            <ratio></ratio>
+            <seuil>75</seuil>
+            <typeratio>vitesse</typeratio>
+            <unlocked>False</unlocked>
+        </pallier>
+        <pallier>
+            <idcible>01</idcible>
+            <logo></logo>
+            <name></name>
+            <ratio></ratio>
+            <seuil>100</seuil>
+            <typeratio>gain</typeratio>
+            <unlocked>False</unlocked>
+        </pallier>
+        <pallier>
+            <idcible>01</idcible>
+            <logo></logo>
+            <name></name>
+            <ratio></ratio>
+            <seuil>125</seuil>
+            <typeratio>gain</typeratio>
+            <unlocked>False</unlocked>
+        </pallier>
+        <pallier>
+            <idcible>02</idcible>
+            <logo></logo>
+            <name></name>
+            <ratio></ratio>
+            <seuil>25</seuil>
+            <typeratio>vitesse</typeratio>
+            <unlocked>False</unlocked>
+        </pallier>
     </upgrades>
     <angelupgrades>
     </angelupgrades>
     <managers>
+        <pallier>
+            <name>Vitrier</name>
+            <logo></logo>
+            <seuil>1000</seuil>
+            <idcible>01</idcible>
+            <ratio></ratio>
+            <typeratio></typeratio>
+            <unlocked>False</unlocked>
+        </pallier>
+        <pallier>
+            <name>Dresseur de chien</name>
+            <logo></logo>
+            <seuil>15000</seuil>
+            <idcible>02</idcible>
+            <ratio></ratio>
+            <typeratio></typeratio>
+            <unlocked>False</unlocked>
+        </pallier>
+        <pallier>
+            <name>Postier</name>
+            <logo></logo>
+            <seuil>500000</seuil>
+            <idcible>03</idcible>
+            <ratio></ratio>
+            <typeratio></typeratio>
+            <unlocked>False></unlocked>
+        </pallier>
     </managers>
 
 </world>
