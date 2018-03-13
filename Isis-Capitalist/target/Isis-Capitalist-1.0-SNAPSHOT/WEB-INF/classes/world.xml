@@ -46,7 +46,8 @@ and open the template in the editor.
                     <ratio>2</ratio>
                     <seuil>50</seuil>
                     <typeratio>vitesse</typeratio>
-                    <unlocked>false</unlocked>                </pallier>
+                    <unlocked>false</unlocked>                
+                </pallier>
                 <pallier>
                     <idcible>01</idcible>
                     <logo>logo/vitre.gif</logo>
