@@ -1,9 +1,9 @@
-com\mycompany\isiscapitalist\GenericResource.class
 generated\PallierType.class
 generated\World.class
 generated\ObjectFactory.class
 generated\ProductType.class
 generated\TyperatioType.class
+com\mycompany\isiscapitalist\Services.class
 generated\PalliersType.class
 com\mycompany\isiscapitalist\ApplicationConfig.class
 generated\ProductsType.class

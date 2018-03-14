@@ -5,6 +5,9 @@
  */
 package com.mycompany.isiscapitalist;
 
+import generated.World;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.UriInfo;
 import javax.ws.rs.Consumes;
@@ -13,7 +16,8 @@ import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.PUT;
 import javax.ws.rs.core.MediaType;
-import com.mycompany.isiscapitalist.Services;
+import javax.ws.rs.core.Response;
+import javax.xml.bind.JAXBException;
 
 /**
  * REST Web Service
@@ -32,7 +36,6 @@ public class GenericResource {
      */
     public GenericResource() {
         services = new Services();
-        services.readWorldFromXml();
     }
 
     /**
@@ -40,19 +43,12 @@ public class GenericResource {
      * @return an instance of java.lang.String
      */
     @GET
-    @Path("world")
+    @Path("/world")
     @Produces(MediaType.APPLICATION_XML)
-    public String getXml() {
-        services.readWorldFromXml();
-        throw new UnsupportedOperationException();
+    public World getXml() throws JAXBException {
+        World world = services.readWorldFromXml();
+        services.saveWorldToXml(world);
+            return(world);
     }
-
-    /**
-     * PUT method for updating or creating an instance of GenericResource
-     * @param content representation for the resource
-     */
-    @PUT
-    @Consumes(MediaType.APPLICATION_XML)
-    public void putXml(String content) {
-    }
+    
 }
