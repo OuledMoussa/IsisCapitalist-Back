@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="file:/C:/Users/houledmo/Documents/NetBeansProjects/IsisCapitalist/../../IsisCapitalist/IsisCapitalist-Back/IsisCapitalist-Back/worldSchema.xsd" uri="src/main/resources/jaxb/WorldBinding/worldSchema.xsd"/>
+</catalog>
