@@ -5,6 +5,7 @@
  */
 package com.mycompany.isiscapitalist;
 
+import com.google.gson.Gson;
 import generated.World;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -43,12 +44,23 @@ public class GenericResource {
      * @return an instance of java.lang.String
      */
     @GET
-    @Path("/world")
+    @Path("world")
     @Produces(MediaType.APPLICATION_XML)
     public World getXml() throws JAXBException {
         World world = services.readWorldFromXml();
         services.saveWorldToXml(world);
             return(world);
     }
-    
+    /**
+     * Retrieves representation of an instance of com.mycompany.isiscapitalist.GenericResource
+     * @return an instance of java.lang.String
+     */
+    @GET
+    @Path("world2")
+    @Produces(MediaType.APPLICATION_XML)
+    public String getJson() throws JAXBException { // Attention on doit changer le type de Get
+        World world = services.readWorldFromXml();
+        services.saveWorldToXml(world);
+        return(new Gson().toJson(world));
+    }
 }

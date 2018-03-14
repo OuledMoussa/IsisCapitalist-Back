@@ -26,7 +26,7 @@ public class Services {
         Unmarshaller u = cont.createUnmarshaller();
         World world;
         try {
-            world = (World) u.unmarshal(new File("-world.xml"));
+            world = (World) u.unmarshal(new File("world.xml"));
         } catch (JAXBException e) {
             InputStream input = getClass().getClassLoader().getResourceAsStream("world.xml");
             world = (World) u.unmarshal(input);
@@ -37,7 +37,7 @@ public class Services {
 
     public void saveWorldToXml(World world) {
         try {
-            OutputStream output = new FileOutputStream("-world.xml");
+            OutputStream output = new FileOutputStream("world.xml");
             JAXBContext cont = JAXBContext.newInstance(World.class);
             Marshaller m = cont.createMarshaller();
             m.marshal(world, output);
