@@ -60,7 +60,6 @@ public class GenericResource {
     @Produces(MediaType.APPLICATION_XML)
     public String getJson() throws JAXBException { // Attention on doit changer le type de Get
         World world = services.readWorldFromXml();
-        services.saveWorldToXml(world);
         return(new Gson().toJson(world));
     }
 }

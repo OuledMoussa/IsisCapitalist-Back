@@ -1,5 +1,6 @@
 package com.mycompany.isiscapitalist;
 
+import static com.mycompany.isiscapitalist.GenericResource.services;
 import java.io.File;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.Unmarshaller;
@@ -48,6 +49,7 @@ public class Services {
 
     public World getWorld() throws JAXBException {
         World w = readWorldFromXml();
+        saveWorldToXml(w);
         return w;
     }
 }
