@@ -21,7 +21,7 @@ and open the template in the editor.
         <product>
             <id>0</id>
             <name>Elle est solide cette vitre</name>
-            <logo>img/vitre.gif</logo>
+            <logo>logo/vitre.png</logo>
             <cout>4</cout>
             <croissance>1.07</croissance>
             <revenu>1</revenu>
@@ -32,7 +32,7 @@ and open the template in the editor.
             <palliers>
                <pallier>
                     <idcible>0</idcible>
-                    <logo>logo/vitre.gif</logo>
+                    <logo>logo/vitre.png</logo>
                     <name>Vitre rayure</name>
                     <ratio>2</ratio>
                     <seuil>25</seuil>
@@ -41,7 +41,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <idcible>0</idcible>
-                    <logo>logo/vitre.gif</logo>
+                    <logo>logo/vitre.png</logo>
                     <name>Vitre impact</name>
                     <ratio>2</ratio>
                     <seuil>50</seuil>
@@ -50,7 +50,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <idcible>0</idcible>
-                    <logo>logo/vitre.gif</logo>
+                    <logo>logo/vitre.png</logo>
                     <name>Vitre cassée</name>
                     <ratio>2</ratio>
                     <seuil>75</seuil>
@@ -62,18 +62,18 @@ and open the template in the editor.
         <product>
             <id>1</id>
             <name>Un chien bien dressé</name>
-            <logo>img/chien.JPG</logo>
+            <logo>logo/chien.PNG</logo>
             <cout>60</cout>
             <croissance>1.15</croissance>
             <revenu>60</revenu>
-            <vitesse>3</vitesse>
+            <vitesse>3000</vitesse>
             <quantite>0</quantite>
             <timeleft>0</timeleft>
             <managerUnlocked>false</managerUnlocked>
             <palliers>
                 <pallier>
                     <idcible>1</idcible>
-                    <logo>logo/chien.JPG</logo>
+                    <logo>logo/chien.PNG</logo>
                     <name>Va chercher Kiki</name>
                     <ratio>2</ratio>
                     <seuil>25</seuil>
@@ -82,7 +82,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <idcible>1</idcible>
-                    <logo>logo/chien.JPG</logo>
+                    <logo>logo/chien.PNG</logo>
                     <name>Non ne ramène pas ça</name>
                     <ratio>2</ratio>
                     <seuil>50</seuil>
@@ -91,7 +91,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <idcible>1</idcible>
-                    <logo>logo/chien.JPG</logo>
+                    <logo>logo/chien.PNG</logo>
                     <name>Lâche Kiki!</name>
                     <ratio>2</ratio>
                     <seuil>100</seuil>
@@ -103,18 +103,18 @@ and open the template in the editor.
         <product>
             <id>2</id>
             <name>Missive explosive</name>
-            <logo>logo/missive.gif</logo>
+            <logo>logo/missive.png</logo>
             <cout>8640</cout>
             <croissance>1.13</croissance>
             <revenu>4320</revenu>
-            <vitesse>12</vitesse>
+            <vitesse>12000</vitesse>
             <quantite>0</quantite>
             <timeleft>0</timeleft>
             <managerUnlocked>false</managerUnlocked>
             <palliers>
                 <pallier>
                     <idcible>2</idcible>
-                    <logo>logo/missive.gif</logo>
+                    <logo>logo/missive.png</logo>
                     <name>Le facteur n'est pas passé</name>
                     <ratio>2</ratio>
                     <seuil>25</seuil>
@@ -123,7 +123,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <idcible>2</idcible>
-                    <logo>logo/missive.gif</logo>
+                    <logo>logo/missive.png</logo>
                     <name>A la boite aux lettres</name>
                     <ratio>2</ratio>
                     <seuil>50</seuil>
@@ -132,8 +132,131 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <idcible>2</idcible>
-                    <logo>logo/missive.gif</logo>
+                    <logo>logo/missive.png</logo>
                     <name>Il ne passera jamais</name>
+                    <ratio>2</ratio>
+                    <seuil>100</seuil>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked>
+                </pallier> 
+            </palliers>
+        </product>
+        <product>
+            <id>3</id>
+            <name>Un pneu vengeur</name>
+            <logo>logo/pneu.png</logo>
+            <cout>103680</cout>
+            <croissance>1.12</croissance>
+            <revenu>51840</revenu>
+            <vitesse>24000</vitesse>
+            <quantite>0</quantite>
+            <timeleft>0</timeleft>
+            <managerUnlocked>false</managerUnlocked>
+            <palliers>
+                <pallier>
+                    <idcible>3</idcible>
+                    <logo>logo/pneu.png</logo>
+                    <name>Pchsittttt</name>
+                    <ratio>2</ratio>
+                    <seuil>25</seuil>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked>
+                </pallier>
+                <pallier>
+                    <idcible>3</idcible>
+                    <logo>logo/pneu.png</logo>
+                    <name>Pneu crevé</name>
+                    <ratio>2</ratio>
+                    <seuil>50</seuil>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked>
+                </pallier>
+                <pallier>
+                    <idcible>3</idcible>
+                    <logo>logo/pneu.png</logo>
+                    <name>Pneu explose ou pas</name>
+                    <ratio>2</ratio>
+                    <seuil>100</seuil>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked>
+                </pallier> 
+            </palliers>
+        </product>
+        <product>
+            <id>4</id>
+            <name>Le dernier burger</name>
+            <logo>logo/burger.png</logo>
+            <cout>14929920</cout>
+            <croissance>1.11</croissance>
+            <revenu>10000</revenu>
+            <vitesse>384000</vitesse>
+            <quantite>0</quantite>
+            <timeleft>0</timeleft>
+            <managerUnlocked>false</managerUnlocked>
+            <palliers>
+                <pallier>
+                    <idcible>4</idcible>
+                    <logo>logo/burger.png</logo>
+                    <name>J'ai faim</name>
+                    <ratio>2</ratio>
+                    <seuil>25</seuil>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked>
+                </pallier>
+                <pallier>
+                    <idcible>4</idcible>
+                    <logo>logo/burger.png</logo>
+                    <name>Je mange tout</name>
+                    <ratio>2</ratio>
+                    <seuil>50</seuil>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked>
+                </pallier>
+                <pallier>
+                    <idcible>4</idcible>
+                    <logo>logo/chien.PNG</logo>
+                    <name>Dead 05-02</name>
+                    <ratio>2</ratio>
+                    <seuil>100</seuil>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked>
+                </pallier> 
+            </palliers>
+        </product>
+        <product>
+            <id>5</id>
+            <name>Un paratonerre du tonnerre !</name>
+            <logo>logo/foudre.png</logo>
+            <cout>179159040</cout>
+            <croissance>1.09</croissance>
+            <revenu>50000</revenu>
+            <vitesse>1536000</vitesse>
+            <quantite>0</quantite>
+            <timeleft>0</timeleft>
+            <managerUnlocked>false</managerUnlocked>
+            <palliers>
+                <pallier>
+                    <idcible>5</idcible>
+                    <logo>logo/foudre.png</logo>
+                    <name>J'ai une idée</name>
+                    <ratio>2</ratio>
+                    <seuil>25</seuil>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked>
+                </pallier>
+                <pallier>
+                    <idcible>5</idcible>
+                    <logo>logo/foudre.png</logo>
+                    <name>Y a de l'orage dans l'air</name>
+                    <ratio>2</ratio>
+                    <seuil>50</seuil>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked>
+                </pallier>
+                <pallier>
+                    <idcible>5</idcible>
+                    <logo>logo/foudre.png</logo>
+                    <name>Je me sens tout électrique</name>
                     <ratio>2</ratio>
                     <seuil>100</seuil>
                     <typeratio>vitesse</typeratio>
@@ -144,19 +267,28 @@ and open the template in the editor.
     </products>
     <allunlocks>
         <pallier>
-            <idcible></idcible>
-            <logo></logo>
-            <name></name>
-            <ratio></ratio>
-            <seuil></seuil>
-            <typeratio></typeratio>
-            <unlocked></unlocked>
+            <idcible>2</idcible>
+            <logo>general/darwin.png</logo>
+            <name>Bravo votre mort est sélectionnée</name>
+            <ratio>3</ratio>
+            <seuil>25</seuil>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+            <idcible>5</idcible>
+            <logo>general/darwin.png</logo>
+            <name>Bravo vous avez gagné un Darwin Award</name>
+            <ratio>3</ratio>
+            <seuil>50</seuil>
+            <typeratio>vitesse</typeratio>
+            <unlocked>false</unlocked>
         </pallier>
     </allunlocks>
     <upgrades>
         <pallier>
             <idcible>0</idcible>
-            <logo>logo/vitre.gif</logo>
+            <logo>logo/vitre.png</logo>
             <name>Le réparateur est là</name>
             <ratio>2</ratio>
             <seuil>10000</seuil>
@@ -165,7 +297,7 @@ and open the template in the editor.
         </pallier>
         <pallier>
             <idcible>1</idcible>
-            <logo>logo/chien.JPG</logo>
+            <logo>logo/chien.PNG</logo>
             <name>Kiki explose les scores</name>
             <ratio>2</ratio>
             <seuil>50000</seuil>
@@ -174,7 +306,7 @@ and open the template in the editor.
         </pallier>
         <pallier>
             <idcible>2</idcible>
-            <logo>logo/missive.gif</logo>
+            <logo>logo/missive.png</logo>
             <name>Mauvaise adresse</name>
             <ratio>2</ratio>
             <seuil>100000</seuil>
@@ -192,7 +324,7 @@ and open the template in the editor.
         </pallier>
         <pallier>
             <idcible>4</idcible>
-            <logo>logo/burger.jpg</logo>
+            <logo>logo/burger.png</logo>
             <name>Fermeture sanitaire</name>
             <ratio>2</ratio>
             <seuil>200000</seuil>
@@ -201,7 +333,7 @@ and open the template in the editor.
         </pallier>
         <pallier>
             <idcible>5</idcible>
-            <logo>logo/paratonnerre.png</logo>
+            <logo>logo/foudre.png</logo>
             <name>Après le calme vient le beau temps</name>
             <ratio>2</ratio>
             <seuil>300000</seuil>
@@ -218,8 +350,8 @@ and open the template in the editor.
             <unlocked>false</unlocked>
         </pallier>
         <pallier>
-            <idcible>0</idcible>
-            <logo></logo>
+            <idcible>2</idcible>
+            <logo>pallier/croque_mort.png</logo>
             <name>Pénurie de croque mort</name>
             <ratio>3</ratio>
             <seuil>600000</seuil>
@@ -227,8 +359,8 @@ and open the template in the editor.
             <unlocked>false</unlocked>
         </pallier>
         <pallier>
-            <idcible>0</idcible>
-            <logo></logo>
+            <idcible>4</idcible>
+            <logo>pallier/fete_morts.png</logo>
             <name>On fête les morts</name>
             <ratio>2</ratio>
             <seuil>800000</seuil>
@@ -236,8 +368,8 @@ and open the template in the editor.
             <unlocked>False</unlocked>
         </pallier>
         <pallier>
-            <idcible>0</idcible>
-            <logo></logo>
+            <idcible>5</idcible>
+            <logo>pallier/chat.png</logo>
             <name>Vous êtes un chat il vous reste 6 vies</name>
             <ratio>4</ratio>
             <seuil>1000000</seuil>
@@ -248,7 +380,7 @@ and open the template in the editor.
     <angelupgrades>
         <pallier>
             <idcible>0</idcible>
-            <logo>angel/</logo>
+            <logo>general/angel</logo>
             <name>Rest in peace Cailloux</name>
             <ratio>2</ratio>
             <seuil>10</seuil>
@@ -257,7 +389,7 @@ and open the template in the editor.
         </pallier>
         <pallier>
             <idcible>0</idcible>
-            <logo>angel/</logo>
+            <logo>general/angel</logo>
             <name>Rest in peace Granit</name>
             <ratio>4</ratio>
             <seuil>10000</seuil>
@@ -266,7 +398,7 @@ and open the template in the editor.
         </pallier>
         <pallier>
             <idcible>0</idcible>
-            <logo>angel/</logo>
+            <logo>general/angel</logo>
             <name>Rest in peace Marbre</name>
             <ratio>2</ratio>
             <seuil>100000</seuil>
@@ -277,31 +409,57 @@ and open the template in the editor.
     <managers>
         <pallier>
             <name>Vitrier</name>
-            <logo></logo>
+            <logo>manager/vitrier.png</logo>
             <seuil>1000</seuil>
-            <idcible>01</idcible>
+            <idcible>0</idcible>
             <ratio></ratio>
             <typeratio></typeratio>
             <unlocked>false</unlocked>
         </pallier>
         <pallier>
             <name>Dresseur de chien</name>
-            <logo></logo>
+            <logo>manager/dresseur_chien.png</logo>
             <seuil>15000</seuil>
-            <idcible>02</idcible>
+            <idcible>1</idcible>
             <ratio></ratio>
             <typeratio></typeratio>
             <unlocked>false</unlocked>
         </pallier>
         <pallier>
             <name>Postier</name>
-            <logo></logo>
+            <logo>manager/postier.png</logo>
             <seuil>500000</seuil>
-            <idcible>03</idcible>
+            <idcible>2</idcible>
+            <ratio></ratio>
+            <typeratio></typeratio>
+            <unlocked>false></unlocked>
+        </pallier>
+        <pallier>
+            <name>Garagiste</name>
+            <logo>manager/garagiste.png</logo>
+            <seuil>1200000</seuil>
+            <idcible>3</idcible>
+            <ratio></ratio>
+            <typeratio></typeratio>
+            <unlocked>false></unlocked>
+        </pallier>
+        <pallier>
+            <name>Employe McDo</name>
+            <logo>manager/mcdo.png</logo>
+            <seuil>111111111</seuil>
+            <idcible>4</idcible>
+            <ratio></ratio>
+            <typeratio></typeratio>
+            <unlocked>false></unlocked>
+        </pallier>
+        <pallier>
+            <name>Zeus</name>
+            <logo>manager/zeus.png</logo>
+            <seuil>555555555</seuil>
+            <idcible>5</idcible>
             <ratio></ratio>
             <typeratio></typeratio>
             <unlocked>false></unlocked>
         </pallier>
     </managers>
-
 </world>
