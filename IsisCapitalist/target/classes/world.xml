@@ -405,6 +405,15 @@ and open the template in the editor.
             <typeratio>ange</typeratio>
             <unlocked>false</unlocked>
         </pallier>
+        <pallier>
+            <idcible>0</idcible>
+            <logo>general/angel</logo>
+            <name>Rest in peace Hotel</name>
+            <ratio>2</ratio>
+            <seuil>1000000</seuil>
+            <typeratio>ange</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
     </angelupgrades>
     <managers>
         <pallier>
