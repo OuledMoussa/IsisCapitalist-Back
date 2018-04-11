@@ -267,21 +267,75 @@ and open the template in the editor.
     </products>
     <allunlocks>
         <pallier>
-            <idcible>2</idcible>
+            <idcible>0</idcible>
             <logo>general/darwin.png</logo>
-            <name>Bravo votre mort est sélectionnée</name>
+            <name>Bravo vous venez de mourir</name>
             <ratio>3</ratio>
             <seuil>25</seuil>
+            <typeratio>vitesse</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+            <idcible>1</idcible>
+            <logo>general/darwin.png</logo>
+            <name>Bravo votre mort vient d'être reconue localement</name>
+            <ratio>3</ratio>
+            <seuil>50</seuil>
+            <typeratio>vitesse</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+            <idcible>3</idcible>
+            <logo>general/darwin.png</logo>
+            <name>Bravo votre mort vient d'être reconue regionnalement</name>
+            <ratio>3</ratio>
+            <seuil>75</seuil>
             <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+            <idcible>4</idcible>
+            <logo>general/darwin.png</logo>
+            <name>Bravo votre mort vient d'être reconue nationnalement</name>
+            <ratio>3</ratio>
+            <seuil>100</seuil>
+            <typeratio>vitesse</typeratio>
             <unlocked>false</unlocked>
         </pallier>
         <pallier>
             <idcible>5</idcible>
             <logo>general/darwin.png</logo>
-            <name>Bravo vous avez gagné un Darwin Award</name>
+            <name>Bravo votre mort vient d'être reconue mondialement</name>
             <ratio>3</ratio>
-            <seuil>50</seuil>
+            <seuil>125</seuil>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+            <idcible>6</idcible>
+            <logo>general/darwin.png</logo>
+            <name>Bravo votre mort vient d'être reconue universellement</name>
+            <ratio>3</ratio>
+            <seuil>150</seuil>
             <typeratio>vitesse</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+            <idcible>6</idcible>
+            <logo>general/darwin.png</logo>
+            <name>Quel belle cérémonie</name>
+            <ratio>3</ratio>
+            <seuil>150</seuil>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+            <idcible>6</idcible>
+            <logo>general/darwin.png</logo>
+            <name>Votre hériatge est décimé</name>
+            <ratio>3</ratio>
+            <seuil>200</seuil>
+            <typeratio>gain</typeratio>
             <unlocked>false</unlocked>
         </pallier>
     </allunlocks>
