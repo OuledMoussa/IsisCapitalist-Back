@@ -6,9 +6,12 @@
 package com.mycompany.isiscapitalist;
 
 import com.google.gson.Gson;
+import generated.PallierType;
+import generated.ProductType;
 import generated.World;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.servlet.http.HttpServletRequest;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.UriInfo;
 import javax.ws.rs.Consumes;
@@ -38,12 +41,10 @@ public class GenericResource {
     public GenericResource() {
         services = new Services();
     }
-
-    /**
-     * Retrieves representation of an instance of com.mycompany.isiscapitalist.GenericResource
-     * @return an instance of java.lang.String
-     */
-    @GET
+    
+   /////////////////// Version SANS utilisateur ///////////////////
+  
+    /*@GET
     @Path("world")
     @Produces(MediaType.APPLICATION_XML)
     public World getXml() throws JAXBException {
@@ -51,15 +52,55 @@ public class GenericResource {
         services.saveWorldToXml(world);
             return(world);
     }
-    /**
-     * Retrieves representation of an instance of com.mycompany.isiscapitalist.GenericResource
-     * @return an instance of java.lang.String
-     */
+    
+    
     @GET
     @Path("world2")
-    @Produces(MediaType.APPLICATION_XML)
-    public String getJson() throws JAXBException { // Attention on doit changer le type de Get
+    @Produces(MediaType.APPLICATION_JSON)
+    public String getJson() throws JAXBException { 
         World world = services.readWorldFromXml();
         return(new Gson().toJson(world));
+    }
+    */
+    /////////////////////////////////////////////////////////
+
+    
+    /////////////////// Version AVEC utilisateur ///////////////////
+
+    @GET
+    @Path("world")
+    @Produces(MediaType.APPLICATION_XML)
+    public World getXml(@Context HttpServletRequest request) throws JAXBException {
+        String username = request.getHeader("X-user");
+        World world = services.readWorldFromXml(username);
+        services.saveWorldToXml(world, username);
+        return(world);
+    }
+    
+    @GET
+    @Path("world2")
+    @Produces(MediaType.APPLICATION_JSON)
+    public String getJson(@Context HttpServletRequest request) throws JAXBException { 
+        String username = request.getHeader("X-user");
+        World world = services.readWorldFromXml(username);
+        return(new Gson().toJson(world));
+    }
+    
+    @PUT
+    @Path("product")
+    @Consumes(MediaType.APPLICATION_JSON)
+    public void product (@Context HttpServletRequest request, String content) throws JAXBException { 
+        String username = request.getHeader("X-user");
+        ProductType product = new Gson().fromJson(content, ProductType.class);
+        //
+    }
+    
+    @PUT
+    @Path("manager")
+    @Consumes(MediaType.APPLICATION_JSON)
+    public void manager (@Context HttpServletRequest request, String content) throws JAXBException { 
+        String username = request.getHeader("X-user");
+        PallierType pallier = new Gson().fromJson(content, PallierType.class);
+        //
     }
 }

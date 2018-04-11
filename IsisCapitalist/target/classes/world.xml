@@ -36,7 +36,7 @@ and open the template in the editor.
                     <name>Vitre rayure</name>
                     <ratio>2</ratio>
                     <seuil>25</seuil>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -45,7 +45,7 @@ and open the template in the editor.
                     <name>Vitre impact</name>
                     <ratio>2</ratio>
                     <seuil>50</seuil>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>                
                 </pallier>
                 <pallier>
@@ -54,7 +54,7 @@ and open the template in the editor.
                     <name>Vitre cassée</name>
                     <ratio>2</ratio>
                     <seuil>75</seuil>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
             </palliers>
@@ -62,7 +62,7 @@ and open the template in the editor.
         <product>
             <id>1</id>
             <name>Un chien bien dressé</name>
-            <logo>logo/chien.PNG</logo>
+            <logo>logo/chien.png</logo>
             <cout>60</cout>
             <croissance>1.15</croissance>
             <revenu>60</revenu>
@@ -73,29 +73,29 @@ and open the template in the editor.
             <palliers>
                 <pallier>
                     <idcible>1</idcible>
-                    <logo>logo/chien.PNG</logo>
+                    <logo>logo/chien.png</logo>
                     <name>Va chercher Kiki</name>
                     <ratio>2</ratio>
                     <seuil>25</seuil>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
                     <idcible>1</idcible>
-                    <logo>logo/chien.PNG</logo>
+                    <logo>logo/chien.png</logo>
                     <name>Non ne ramène pas ça</name>
                     <ratio>2</ratio>
                     <seuil>50</seuil>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
                     <idcible>1</idcible>
-                    <logo>logo/chien.PNG</logo>
+                    <logo>logo/chien.png</logo>
                     <name>Lâche Kiki!</name>
                     <ratio>2</ratio>
                     <seuil>100</seuil>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier> 
             </palliers>
@@ -118,7 +118,7 @@ and open the template in the editor.
                     <name>Le facteur n'est pas passé</name>
                     <ratio>2</ratio>
                     <seuil>25</seuil>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -127,7 +127,7 @@ and open the template in the editor.
                     <name>A la boite aux lettres</name>
                     <ratio>2</ratio>
                     <seuil>50</seuil>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -136,7 +136,7 @@ and open the template in the editor.
                     <name>Il ne passera jamais</name>
                     <ratio>2</ratio>
                     <seuil>100</seuil>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier> 
             </palliers>
@@ -159,7 +159,7 @@ and open the template in the editor.
                     <name>Pchsittttt</name>
                     <ratio>2</ratio>
                     <seuil>25</seuil>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -168,7 +168,7 @@ and open the template in the editor.
                     <name>Pneu crevé</name>
                     <ratio>2</ratio>
                     <seuil>50</seuil>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -177,7 +177,7 @@ and open the template in the editor.
                     <name>Pneu explose ou pas</name>
                     <ratio>2</ratio>
                     <seuil>100</seuil>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier> 
             </palliers>
@@ -200,7 +200,7 @@ and open the template in the editor.
                     <name>J'ai faim</name>
                     <ratio>2</ratio>
                     <seuil>25</seuil>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -209,16 +209,16 @@ and open the template in the editor.
                     <name>Je mange tout</name>
                     <ratio>2</ratio>
                     <seuil>50</seuil>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
                     <idcible>4</idcible>
-                    <logo>logo/chien.PNG</logo>
+                    <logo>logo/chien.png</logo>
                     <name>Dead 05-02</name>
                     <ratio>2</ratio>
                     <seuil>100</seuil>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier> 
             </palliers>
@@ -241,7 +241,7 @@ and open the template in the editor.
                     <name>J'ai une idée</name>
                     <ratio>2</ratio>
                     <seuil>25</seuil>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -250,7 +250,7 @@ and open the template in the editor.
                     <name>Y a de l'orage dans l'air</name>
                     <ratio>2</ratio>
                     <seuil>50</seuil>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -259,7 +259,7 @@ and open the template in the editor.
                     <name>Je me sens tout électrique</name>
                     <ratio>2</ratio>
                     <seuil>100</seuil>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier> 
             </palliers>
@@ -272,7 +272,7 @@ and open the template in the editor.
             <name>Bravo vous venez de mourir</name>
             <ratio>3</ratio>
             <seuil>25</seuil>
-            <typeratio>vitesse</typeratio>
+            <typeratio>VITESSE</typeratio>
             <unlocked>false</unlocked>
         </pallier>
         <pallier>
@@ -281,7 +281,7 @@ and open the template in the editor.
             <name>Bravo votre mort vient d'être reconue localement</name>
             <ratio>3</ratio>
             <seuil>50</seuil>
-            <typeratio>vitesse</typeratio>
+            <typeratio>VITESSE</typeratio>
             <unlocked>false</unlocked>
         </pallier>
         <pallier>
@@ -290,7 +290,7 @@ and open the template in the editor.
             <name>Bravo votre mort vient d'être reconue regionnalement</name>
             <ratio>3</ratio>
             <seuil>75</seuil>
-            <typeratio>gain</typeratio>
+            <typeratio>GAIN</typeratio>
             <unlocked>false</unlocked>
         </pallier>
         <pallier>
@@ -299,7 +299,7 @@ and open the template in the editor.
             <name>Bravo votre mort vient d'être reconue nationnalement</name>
             <ratio>3</ratio>
             <seuil>100</seuil>
-            <typeratio>vitesse</typeratio>
+            <typeratio>VITESSE</typeratio>
             <unlocked>false</unlocked>
         </pallier>
         <pallier>
@@ -308,7 +308,7 @@ and open the template in the editor.
             <name>Bravo votre mort vient d'être reconue mondialement</name>
             <ratio>3</ratio>
             <seuil>125</seuil>
-            <typeratio>gain</typeratio>
+            <typeratio>GAIN</typeratio>
             <unlocked>false</unlocked>
         </pallier>
         <pallier>
@@ -317,7 +317,7 @@ and open the template in the editor.
             <name>Bravo votre mort vient d'être reconue universellement</name>
             <ratio>3</ratio>
             <seuil>150</seuil>
-            <typeratio>vitesse</typeratio>
+            <typeratio>VITESSE</typeratio>
             <unlocked>false</unlocked>
         </pallier>
         <pallier>
@@ -326,7 +326,7 @@ and open the template in the editor.
             <name>Quel belle cérémonie</name>
             <ratio>3</ratio>
             <seuil>150</seuil>
-            <typeratio>gain</typeratio>
+            <typeratio>GAIN</typeratio>
             <unlocked>false</unlocked>
         </pallier>
         <pallier>
@@ -335,7 +335,7 @@ and open the template in the editor.
             <name>Votre hériatge est décimé</name>
             <ratio>3</ratio>
             <seuil>200</seuil>
-            <typeratio>gain</typeratio>
+            <typeratio>GAIN</typeratio>
             <unlocked>false</unlocked>
         </pallier>
     </allunlocks>
@@ -346,16 +346,16 @@ and open the template in the editor.
             <name>Le réparateur est là</name>
             <ratio>2</ratio>
             <seuil>10000</seuil>
-            <typeratio>vitesse</typeratio>
+            <typeratio>VITESSE</typeratio>
             <unlocked>false</unlocked>
         </pallier>
         <pallier>
             <idcible>1</idcible>
-            <logo>logo/chien.PNG</logo>
+            <logo>logo/chien.png</logo>
             <name>Kiki explose les scores</name>
             <ratio>2</ratio>
             <seuil>50000</seuil>
-            <typeratio>vitesse</typeratio>
+            <typeratio>VITESSE</typeratio>
             <unlocked>false</unlocked>
         </pallier>
         <pallier>
@@ -364,7 +364,7 @@ and open the template in the editor.
             <name>Mauvaise adresse</name>
             <ratio>2</ratio>
             <seuil>100000</seuil>
-            <typeratio>gain</typeratio>
+            <typeratio>GAIN</typeratio>
             <unlocked>false</unlocked>
         </pallier>
         <pallier>
@@ -373,7 +373,7 @@ and open the template in the editor.
             <name>Bonus carte pneu increvable</name>
             <ratio>3</ratio>
             <seuil>150000</seuil>
-            <typeratio>gain</typeratio>
+            <typeratio>GAIN</typeratio>
             <unlocked>false</unlocked>
         </pallier>
         <pallier>
@@ -382,7 +382,7 @@ and open the template in the editor.
             <name>Fermeture sanitaire</name>
             <ratio>2</ratio>
             <seuil>200000</seuil>
-            <typeratio>ange</typeratio>
+            <typeratio>ANGE</typeratio>
             <unlocked>false</unlocked>
         </pallier>
         <pallier>
@@ -391,7 +391,7 @@ and open the template in the editor.
             <name>Après le calme vient le beau temps</name>
             <ratio>2</ratio>
             <seuil>300000</seuil>
-            <typeratio>ange</typeratio>
+            <typeratio>ANGE</typeratio>
             <unlocked>false</unlocked>
         </pallier>
         <pallier>
@@ -400,7 +400,7 @@ and open the template in the editor.
             <name>Théorie de l'évolution</name>
             <ratio>2</ratio>
             <seuil>5000000</seuil>
-            <typeratio>vitesse</typeratio>
+            <typeratio>VITESSE</typeratio>
             <unlocked>false</unlocked>
         </pallier>
         <pallier>
@@ -409,7 +409,7 @@ and open the template in the editor.
             <name>Pénurie de croque mort</name>
             <ratio>3</ratio>
             <seuil>600000</seuil>
-            <typeratio>gain</typeratio>
+            <typeratio>GAIN</typeratio>
             <unlocked>false</unlocked>
         </pallier>
         <pallier>
@@ -418,7 +418,7 @@ and open the template in the editor.
             <name>On fête les morts</name>
             <ratio>2</ratio>
             <seuil>800000</seuil>
-            <typeratio>vitesse</typeratio>
+            <typeratio>VITESSE</typeratio>
             <unlocked>False</unlocked>
         </pallier>
         <pallier>
@@ -427,102 +427,102 @@ and open the template in the editor.
             <name>Vous êtes un chat il vous reste 6 vies</name>
             <ratio>4</ratio>
             <seuil>1000000</seuil>
-            <typeratio>ange</typeratio>
+            <typeratio>ANGE</typeratio>
             <unlocked>false</unlocked>
         </pallier>
     </upgrades>
     <angelupgrades>
         <pallier>
             <idcible>0</idcible>
-            <logo>general/angel</logo>
+            <logo>general/angel.png</logo>
             <name>Rest in peace Cailloux</name>
             <ratio>2</ratio>
             <seuil>10</seuil>
-            <typeratio>gain</typeratio>
+            <typeratio>GAIN</typeratio>
             <unlocked>false</unlocked>
         </pallier>
         <pallier>
             <idcible>0</idcible>
-            <logo>general/angel</logo>
+            <logo>general/angel.png</logo>
             <name>Rest in peace Granit</name>
             <ratio>4</ratio>
             <seuil>10000</seuil>
-            <typeratio>ange</typeratio>
+            <typeratio>ANGE</typeratio>
             <unlocked>false</unlocked>
         </pallier>
         <pallier>
             <idcible>0</idcible>
-            <logo>general/angel</logo>
+            <logo>general/angel.png</logo>
             <name>Rest in peace Marbre</name>
             <ratio>2</ratio>
             <seuil>100000</seuil>
-            <typeratio>ange</typeratio>
+            <typeratio>ANGE</typeratio>
             <unlocked>false</unlocked>
         </pallier>
         <pallier>
             <idcible>0</idcible>
-            <logo>general/angel</logo>
+            <logo>general/angel.png</logo>
             <name>Rest in peace Hotel</name>
             <ratio>2</ratio>
             <seuil>1000000</seuil>
-            <typeratio>ange</typeratio>
+            <typeratio>ANGE</typeratio>
             <unlocked>false</unlocked>
         </pallier>
     </angelupgrades>
     <managers>
         <pallier>
-            <name>Vitrier</name>
-            <logo>manager/vitrier.png</logo>
-            <seuil>1000</seuil>
             <idcible>0</idcible>
-            <ratio></ratio>
-            <typeratio></typeratio>
+            <logo>manager/vitrier.png</logo>
+            <name>Vitrier</name>
+            <ratio>2</ratio>
+            <seuil>1000</seuil>
+            <typeratio>VITESSE</typeratio>
             <unlocked>false</unlocked>
         </pallier>
         <pallier>
-            <name>Dresseur de chien</name>
-            <logo>manager/dresseur_chien.png</logo>
-            <seuil>15000</seuil>
             <idcible>1</idcible>
-            <ratio></ratio>
-            <typeratio></typeratio>
+            <logo>manager/dresseur_chien.png</logo>
+            <name>Dresseur de chien</name>
+            <ratio>2</ratio>
+            <seuil>15000</seuil>
+            <typeratio>VITESSE</typeratio>
             <unlocked>false</unlocked>
         </pallier>
         <pallier>
-            <name>Postier</name>
-            <logo>manager/postier.png</logo>
-            <seuil>500000</seuil>
             <idcible>2</idcible>
-            <ratio></ratio>
-            <typeratio></typeratio>
-            <unlocked>false></unlocked>
+            <logo>manager/postier.png</logo>
+            <name>Postier</name>
+            <ratio>2</ratio>
+            <seuil>500000</seuil>
+            <typeratio>VITESSE</typeratio>
+            <unlocked>false</unlocked>
         </pallier>
         <pallier>
-            <name>Garagiste</name>
-            <logo>manager/garagiste.png</logo>
-            <seuil>1200000</seuil>
             <idcible>3</idcible>
-            <ratio></ratio>
-            <typeratio></typeratio>
-            <unlocked>false></unlocked>
+            <logo>manager/garagiste.png</logo>
+            <name>Garagiste</name>
+            <ratio>2</ratio>
+            <seuil>1200000</seuil>
+            <typeratio>VITESSE</typeratio>
+            <unlocked>false</unlocked>
         </pallier>
         <pallier>
-            <name>Employe McDo</name>
-            <logo>manager/mcdo.png</logo>
-            <seuil>111111111</seuil>
             <idcible>4</idcible>
-            <ratio></ratio>
-            <typeratio></typeratio>
-            <unlocked>false></unlocked>
+            <logo>manager/mcdo.png</logo>
+            <name>Employe McDO</name>
+            <ratio>2</ratio>
+            <seuil>111111111</seuil>
+            <typeratio>VITESSE</typeratio>
+            <unlocked>false</unlocked>
         </pallier>
         <pallier>
-            <name>Zeus</name>
-            <logo>manager/zeus.png</logo>
-            <seuil>555555555</seuil>
             <idcible>5</idcible>
-            <ratio></ratio>
-            <typeratio></typeratio>
-            <unlocked>false></unlocked>
+            <logo>manager/zeus.png</logo>
+            <name>Zeus</name>
+            <ratio>2</ratio>
+            <seuil>555555555</seuil>
+            <typeratio>VITESSE</typeratio>
+            <unlocked>false</unlocked>
         </pallier>
     </managers>
 </world>
